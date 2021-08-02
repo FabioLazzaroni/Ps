@@ -1,0 +1,112 @@
+@font-face {
+        src: url(assets/Gotham/Gotham-Bold.ttf);
+        font-family: "Gotham-Bold";
+ }
+ @font-face {
+    src: url(assets/Gotham/Gotham-Book.ttf);
+    font-family: "Gotham-Book";
+ }
+ @font-face {
+     font-family: "Gotham-Light";
+     src: url(assets/Gotham/Gotham-Light.ttf);
+ }
+@font-face {
+    font-family: "Gotham-Medium";
+    src: url(assets/Gotham/Gotham-Medium.ttf);
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color:#212529
+}
+.navbar-toggler{
+    border: none;
+}
+.formslider{
+    background-color: gold;
+}
+.formslideright{
+    background-color:#212529; 
+}
+h2{
+    text-transform: uppercase;
+}
+.book{
+    background-color: gold;
+    font-family: "Gotham-Medium";
+    text-decoration: none;
+    text-align: center;
+    color: #212529;   
+}
+.request{
+    background-color: #212529;
+    color:whitesmoke;
+    font-family: "Gotham-Medium";
+    text-decoration: none;
+    text-align: center;
+}
+.linkhover:hover{
+    background-color: gold;
+    color: #212529;
+}
+.book:hover{
+    color:whitesmoke
+}
+.request:hover{
+    color: whitesmoke;
+}
+.contact{
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke; 
+    border-bottom: 1px solid;
+    border-color: gold;  
+}
+address{
+    color: #212529;
+    font-family: "Gotham-light";
+}
+form .error {
+    color: #ff0000;
+    font-family: "Ghotam-Light";
+  }
+
+input:required,
+textarea:required {
+  border-color: red !important;
+}
+input:required + label {
+  color: red;
+}
+.privacy{
+    color: #212529;
+}
+.checkReq{
+    font-family: "Gotham-Medium";
+    font-size: small;
+}
+.button{
+    background-color: #212529;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family:"Gotham-Book";
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+.buttonsend{
+    background-color: gold;
+    text-transform: uppercase;
+    color: #212529;
+    font-family:"Gotham-Book";
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+
